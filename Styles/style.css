@@ -5,10 +5,43 @@ body
 
 header {
     background-color: #aac9c4;
+    border-radius: 25px;
 }
 
 #servicesAndPayments
 {
     background-color: #ae5757;
+    border-radius: 25px;
 }
 
+.headerRowFlex
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.headerColumn
+{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  height: 70%;
+}
+
+.headshot-column
+{
+    padding: 15px;
+}
+
+.intro-column
+{
+    padding: 15px;
+}
+
+.headshot-image
+{
+    border-radius: 25px;
+}
