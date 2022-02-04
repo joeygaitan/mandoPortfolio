@@ -8,10 +8,20 @@ header {
     border-radius: 25px;
 }
 
-#servicesAndPayments
+#servicesAndPaymentsRow
 {
     background-color: #ae5757;
     border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pastWork
+{
+    background-color: #fcd260;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .headerRowFlex
@@ -27,21 +37,31 @@ header {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  flex: 30;
   height: 70%;
 }
 
-.headshot-column
+.headerColumn > .headshot-column
 {
+    flex: 1;
     padding: 15px;
 }
 
-.intro-column
+.headerColumn > .intro-column
 {
+    flex: 50;
     padding: 15px;
 }
 
 .headshot-image
 {
     border-radius: 25px;
+}
+
+.footer
+{
+    background-color: #fcc433;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
 }
