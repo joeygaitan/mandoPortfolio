@@ -66,6 +66,14 @@ header {
     margin-bottom: 5px;
 }
 
+
+/*
+padding: 25px 50px 75px 100px;
+* top padding is 25px
+* right padding is 50px
+* bottom padding is 75px
+* left padding is 100px
+*/
 .amphibious-column
 {
     padding: 5px 10px 5px 5px;
