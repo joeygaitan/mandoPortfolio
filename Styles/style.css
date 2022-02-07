@@ -32,24 +32,166 @@ header {
     width: 100%;
 }
 
-.headerColumn
-{
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 30;
-  height: 70%;
-}
-
 .headerColumn > .headshot-column
 {
-    flex: 1;
+    flex: 70%;
+    flex-grow: 1;
     padding: 15px;
 }
 
 .headerColumn > .intro-column
 {
-    flex: 50;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    flex-grow: 6;
+    margin-top: 40px;
     padding: 15px;
 }
 
@@ -57,22 +199,32 @@ header {
 {}
 
 .pastWorkRow
-{}
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .pastWorkColumn
 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 30;
+    height: 70%;
     background-color: coral;
     border-radius: 25px;
     margin-bottom: 5px;
+    width: 25%  ;
 }
 
 
 /*
 padding: 25px 50px 75px 100px;
-* top padding is 25px
-* right padding is 50px
-* bottom padding is 75px
-* left padding is 100px
+    * top padding is 25px
+    * right padding is 50px
+    * bottom padding is 75px
+    * left padding is 100px
 */
 .amphibious-column
 {
