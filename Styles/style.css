@@ -8,21 +8,7 @@ header {
     border-radius: 25px;
 }
 
-#servicesAndPaymentsRow
-{
-    background-color: #ae5757;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-}
 
-.pastWorkRow
-{
-    background-color: #fcd260;
-    border-radius: 25px;
-    padding: 10px;
-    margin: 10px;
-}
 
 .headerRowFlex
 {
@@ -46,8 +32,28 @@ header {
     padding: 15px;
 }
 
-.serviceColumn
-{}
+#servicesAndPaymentsRow
+{
+    background-color: #ae5757;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.serviceCard
+{
+    background-color: #fcc433;
+    border-radius: 25px;
+    padding: 5px 10px 10px 5px;
+}
+
+.pastWorkContainer
+{
+    background-color: #fcd260;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
 
 .pastWorkRow
 {
@@ -66,7 +72,8 @@ header {
     background-color: coral;
     border-radius: 25px;
     margin-bottom: 5px;
-    width: 25%  ;
+    width: 25%;
+    margin: 5px 10px 5px 5px;
 }
 
 
