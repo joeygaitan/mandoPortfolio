@@ -157,6 +157,10 @@ padding: 25px 50px 75px 100px;
     text-align: center;
 }
  
+/*
+    Non svg images
+*/
+
 .headshot-image
 {
     border-radius: 25px;
@@ -187,6 +191,9 @@ padding: 25px 50px 75px 100px;
     margin-left: 25%;
 }
 
+/*
+    iphone resolution
+*/
 @media only screen and (max-width: 400px) {
 
     .headerRowFlex
@@ -199,6 +206,11 @@ padding: 25px 50px 75px 100px;
     .serviceColumn > .service-column
     {
         flex-direction: column;
+    }
+
+    .pastWorkRow
+    {
+        margin-right: 5%;
     }
 
     .serviceCard
@@ -224,6 +236,30 @@ padding: 25px 50px 75px 100px;
     {
         border-radius: 25px;
         width: 80%;
+        margin-left: 20px;
+    }
+
+    .headerColumn > .headshot-column > h1
+    {
+        padding-left: 30px;
+    }
+
+    .headerColumn > .intro-column 
+    {
+        padding-top: 0px;
+        margin-top: 10px;
+    }
+}
+
+/*
+ screen size before you hit iphone
+*/
+@media only screen and (max-width: 700) {
+    .headshot-image
+    {
+        border-radius: 25px;
+        width: 80%;
+        height: 80%;
         margin-left: 20px;
     }
 
