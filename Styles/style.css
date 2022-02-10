@@ -20,14 +20,14 @@ header {
 
 .headerColumn > .headshot-column
 {
-    flex: 70%;
+    flex: 1;
     flex-grow: 1;
     padding: 15px;
 }
 
 .headerColumn > .intro-column
 {
-    flex-grow: 6;
+    flex: 2
     margin-top: 40px;
     padding: 15px;
 }
@@ -40,11 +40,46 @@ header {
     margin: 10px;
 }
 
+.serviceColumn
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.serviceColumn > .service-column
+{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.serviceColumn > h3
+{
+    flex: .1
+}
+
+
 .serviceCard
 {
     background-color: #fcc433;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
     border-radius: 25px;
-    padding: 5px 10px 10px 5px;
+}
+
+
+.serviceCard > img
+{
+    width: 5%;
+    height: 5%;
+    flex:1;
+}
+
+.serviceCard > p
+{
+    flex: 2;
 }
 
 .pastWorkContainer
@@ -97,6 +132,8 @@ padding: 25px 50px 75px 100px;
 .headshot-image
 {
     border-radius: 25px;
+    height: 50%;
+    width: 50%;
 }
 
 #badyYodaImage
@@ -113,6 +150,40 @@ padding: 25px 50px 75px 100px;
 {
     border-radius: 25px;
 }
+
+@media only screen and (max-width: 400px) {
+
+    /*
+    Image sizing for cell phones
+    */
+    .headshot-image
+    {
+        border-radius: 25px;
+        width: 80%;
+    }
+    
+    #badyYodaImage
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    #hologramBountyImage
+    {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+    }
+
+    #deliveringBountyImage
+    {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
 
 .footer
 {
