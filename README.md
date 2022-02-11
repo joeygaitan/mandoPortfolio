@@ -2,7 +2,7 @@
 
 ## Live Link
 
-- Work In Progress
+- [Mando Portfolio Live Link](https://github.com/joeygaitan/mandoPortfolio/deployments/activity_log?environment=github-pages)
 
 ### Tools
 

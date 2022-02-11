@@ -252,7 +252,7 @@ padding: 25px 50px 75px 100px;
 }
 
 /*
- screen size before you hit iphone
+ screen size before you hit iphone. Fix imaging issues and working
 */
 @media only screen and (max-width: 700) {
     .headshot-image
